@@ -1,0 +1,29 @@
+#include<stdio.h>
+int main(){
+    int  persentage;
+    printf(" enter your persentage\n");
+    scanf("%d" , & persentage);
+    if( persentage >=75 && persentage <=100){
+    printf(" grade A\n"); 
+        
+    }
+    
+      else if(persentage >=60 && persentage <=75){
+     printf("grade B\n");
+      }
+     else if ( persentage >=45 && persentage <= 60){
+         
+     printf ("grade C\n");
+         
+      }
+     else if (persentage>=33 && persentage<= 45){
+     printf ("grade D\n");
+      }
+     else if (persentage>=0 && persentage<= 33){
+     printf("fail \n");
+      }
+     else {
+          printf("wronge input");
+     }
+    return 0;
+}
